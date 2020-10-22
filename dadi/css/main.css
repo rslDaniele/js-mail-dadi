@@ -1,0 +1,11 @@
+button{
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/dado.jpg);
+  background-size: cover;
+  vertical-align: middle;
+}
+
+label{
+  vertical-align: middle;
+}
