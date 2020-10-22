@@ -2,7 +2,7 @@ var bottone = document.getElementById('dado')
 
 bottone.addEventListener('click', function() {
   risultatoai.innerHTML = Math.floor(Math.random() *  6) + 1 ;
-  risultatouser.innerHTML = Matf.floor(Math.random() * 6) + 1;
+  risultatouser.innerHTML = Math.floor(Math.random() * 6) + 1;
 
   if (risultatoai > risultatouser) {
     document.getElementById('vincitore').innerHTML = "Ho vinto io!"
